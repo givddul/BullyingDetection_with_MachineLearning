@@ -1,7 +1,21 @@
-# Detection of bullying with Machine Learning and LLMs
+# Detection of bullying in text surveys using Machine Learning
 
-This repository contains the code for a degree project conducted at Linnaeus University in collaboration with Tietoevry and the Friends Foundation. The project explores the application of various supervised machine learning techniques for detecting bullying in textual data collected through school surveys provided by the Friends Foundation. The study evaluates several machine learning models, including Logistic Regression, Naive Bayes, Support Vector Machine (SVM), and Convolutional Neural Networks (CNN), alongside a Retrieval-Augmented Generation (RAG) model using Llama 3. The focus of this research is to identify the most effective model to detect instances of bullying, particularly aiming to achieve high recall to capture as many instances as possible.
+This is a degree project done in the spring of 2024 at <em>Linnaeus university</em> in collaboration with <em>Tietoevry</em> and the <em>Friends Foundation</em>. 
 
-For a detailed discussion of the project, including the methodology, results, and insights on the challenges faced during the research, you can read the full study here [link will be available later]. 
+The project explores various supervised machine learning algorithms as well as locally run LLMs with RAG to evaluate how they perform in the task of detecting bullying in textual data. The data is from real school surveys provided by the Friends Foundation. 
+ 
+### Supervised machine learning algorithms and LLMs evaluated: 
+- **Logistic Regression**
+- **Naive Bayes**
+- **Support Vector Machine (SVM)**
+- **Convolutional Neural Networks (CNN)**
+- **Llama 3 (8B) with Retrieval-Augmented Generation (RAG)**
+- **GPT-4o** <em>(Only one not run locally)</em>
 
-Contributers: Seif-Alamir Yousef & Ludvig Svensson. 
+
+### The project also dives into different NLP techniques:
+- **Text Preprocessing:** <em>Tokenization, Stop words removal, Stemming and lemmatization</em>
+- **Feature Extraction:** <em>Bag of Word, TF-IDF</em>
+- **Word embeddings:** <em>pre-trained swedish embedding from FastText</em>
+
+<strong>Contributers</strong>: Ludvig Svensson & Seif-Alamir Yousef
