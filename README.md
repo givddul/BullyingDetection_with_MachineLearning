@@ -18,4 +18,6 @@ The project explores various supervised machine learning algorithms as well as l
 - **Feature Extraction:** <em>Bag of Word, TF-IDF</em>
 - **Word embeddings:** <em>pre-trained swedish embedding from FastText</em>
 
+<strong>Report:</strong> [Final degree project report](Degree%20Project%20Report.pdf).
+
 <strong>Contributors</strong>: Ludvig Svensson & Seif-Alamir Yousef
